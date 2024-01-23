@@ -1,0 +1,24 @@
+.navbar-container{
+    padding: 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+}
+.logobox{
+    position: fixed;
+    bottom: 20px;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    font-size: 30px;
+}
+
+.navlinks{
+    display: flex;
+    justify-content: flex-end;
+    font-size: 20px;
+    font-weight: 600;
+    align-items: center;
+}

@@ -1,4 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Poppins:wght@400;500;600;700;800;900&family=Roboto:ital,wght@0,500;0,700;0,900;1,500;1,700;1,900&display=swap');
+
 *{
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
+  caret-color: transparent;
 }
+body{
+font-family: 'Poppins', sans-serif;
+/* font-family: 'Roboto', sans-serif; */
+}
+/* Hide scrollbar for Chrome, Safari and Opera */
+::-webkit-scrollbar {
+  display: none;
+}
+

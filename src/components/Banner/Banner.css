@@ -1,0 +1,21 @@
+.banner-container{
+    background-color: #000;
+    padding: 30px;
+    /* background: url(); */
+    color: #fff;
+}
+.banner-row{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+.left-banner{
+    padding-left: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.left-banner h3{
+    font-size: 50px;
+    font-weight: 700;
+}
