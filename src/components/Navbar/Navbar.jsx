@@ -11,6 +11,7 @@ function Navbar() {
                     <i className="fa-solid fa-phone"></i>
                 </div>
                 <div className="navlinks">
+                    
                     <i class="fa-solid fa-toggle-on"></i>
                     {/* <i class="fa-solid fa-toggle-off"></i> */}
                 </div>

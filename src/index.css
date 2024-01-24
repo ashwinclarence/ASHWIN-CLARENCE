@@ -8,10 +8,20 @@
 }
 body{
 font-family: 'Poppins', sans-serif;
-/* font-family: 'Roboto', sans-serif; */
 }
+
 /* Hide scrollbar for Chrome, Safari and Opera */
 ::-webkit-scrollbar {
   display: none;
+}
+
+:root{
+  --bg-color:#161726;
+  --main-color:#5656E0;
+  --sub-color:#161726;
+  /* --text-color:#4e4e50; */
+  --text-color:#e2e2e2;
+  --hover-color:#0F0E1A;
+
 }
 

@@ -1,8 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Cookie&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Paytone+One&display=swap');
 .banner-container{
-    background-color: #000;
     padding: 30px;
     /* background: url(); */
-    color: #fff;
+    color: var(--text-color);
+    background: url("../../assets/profile.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: var(--bg-color);
+    font-family: 'Paytone One', sans-serif;
 }
 .banner-row{
     height: 100vh;
@@ -18,4 +24,12 @@
 .left-banner h3{
     font-size: 50px;
     font-weight: 700;
+}
+.banner-first-name{
+    /* color: var(--hover-color); */
+}
+.banner-stack{
+    font-family: 'Paytone One', sans-serif;
+    /* font-family: 'Cookie', cursive; */
+    /* color: var(--sub-color); */
 }
