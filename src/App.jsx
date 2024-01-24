@@ -2,6 +2,7 @@ import Navbar from './components/Navbar/Navbar'
 import Banner from './components/Banner/Banner'
 import About from './components/About/About'
 import Skills from './components/Skills/Skills'
+import Portfolio from './components/Portfolio/Portfolio'
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Banner/>
       <About/>
       <Skills/>
+      <Portfolio/>
     </div>
   )
 }

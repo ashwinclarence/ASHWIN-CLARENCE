@@ -77,8 +77,8 @@ function Skills() {
   return (
     <div className='skills-container container-fluid'>
         <div className="skills-row row">
-          <h3>Skills</h3>
-          {/* <p>As a newcomer to the world of coding, I am eagerly embarking on a journey of self-development, honing my programming skills with a determined commitment to continuous learning and growth.</p> */}
+          <h3 className='sub-heading'>Skills</h3>
+          <p>As a newcomer to the world of coding, I am eagerly embarking on a journey of self-development, honing my programming skills with a determined commitment to continuous learning and growth.</p>
            {
             skill.map((obj,index)=>{
               return(
@@ -87,7 +87,7 @@ function Skills() {
                   <img src={obj.image} alt="" className='skills-img'/>
                 </div>
                 <div className="skill-box-des">
-                  <h4>{obj.name} </h4>
+                  <h4 className='skill-name'>{obj.name} </h4>
                   {/* <p>{obj.about} </p> */}
                 </div>
               </div>

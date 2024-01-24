@@ -10,7 +10,7 @@ function About() {
         <img src={profileimg} alt="" />
       </div>
       <div className="about-right col-md-6">
-        <h3 className="about-head">About me</h3>
+        <h3 className="sub-heading">About me</h3>
         <p>An enthusiastic programmer skilled. Web-development have always been my fields of interest. Im very much passionate to learn new stuffs that interests me and can help me to get better.</p>
         <div className="about-right-row">
           <h5 onClick={()=>setabout(true)} className={`${about?"about-underline":"no-underline"}`}>Qualification</h5>
