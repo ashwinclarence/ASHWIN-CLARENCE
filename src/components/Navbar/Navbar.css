@@ -1,26 +1,57 @@
 .navbar-container{
-    padding: 20px;
     position: fixed;
     top: 0;
     left: 0;
-    height: 100vh;
 }
-.logobox{
+.nav-left{
     position: fixed;
     bottom: 20px;
     left: 0;
+    width: 100px;
     display: flex;
     flex-direction: column;
     gap: 30px;
     font-size: 20px;
     color: var(--main-color);
 }
+.logobox{
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 30px;
+    /* font-weight: 600; */
+}
+.logobox a{
+    text-decoration: none;
+    color: var(--text-color);
+    letter-spacing: 2px;
+    font-family: 'Paytone One', sans-serif;
+
+}
+
+.nav-right{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--bg-color);
+
+}
 
 .navlinks{
+    width: 60%;
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
     font-size: 20px;
     font-weight: 600;
     align-items: center;
     color: var(--main-color);
+}
+.navlinks a{
+    display: flex;
+    justify-content: spa;
+    align-items: center;
+    text-decoration: none;
+    color: var(--text-color);
 }

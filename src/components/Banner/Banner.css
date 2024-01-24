@@ -7,7 +7,6 @@
     background: url("../../assets/profile.png");
     background-size: cover;
     background-repeat: no-repeat;
-    background-color: var(--bg-color);
     font-family: 'Paytone One', sans-serif;
 }
 .banner-row{
@@ -30,6 +29,5 @@
 }
 .banner-stack{
     font-family: 'Paytone One', sans-serif;
-    /* font-family: 'Cookie', cursive; */
     /* color: var(--sub-color); */
 }

@@ -8,6 +8,8 @@
 }
 body{
 font-family: 'Poppins', sans-serif;
+background: var(--bg-color);
+scroll-behavior: smooth;
 }
 
 /* Hide scrollbar for Chrome, Safari and Opera */
